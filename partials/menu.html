@@ -1,0 +1,6 @@
+<div ng-controller="mainController">
+    <div ng-repeat="item in list" class="list" >
+	<img ng-src="{{item.image}}" class="list-img" ng-click="showItems(item.category_name,item.type, item.contents)">
+					
+   </div>
+</div>

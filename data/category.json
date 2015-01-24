@@ -1,0 +1,35 @@
+{
+"type":"category",
+"items":[{"category_name":"Television",
+           "type":"grid",
+	    "image":"./img/television.png",
+          "contents":[
+	{
+	"image":"./img/tvp1.png",
+	"item_name":"educational",
+	"src":["vid1.mp4","vid2.mp4"]
+	},
+	{
+	"image":"./img/tvp2.jpg",
+	"item_name":"fun",
+	"src":["vid1.mp4","vid2.mp4"]
+	},
+        {
+	"image":"./img/tvp3.jpg",
+	"item_name":"cartoon",
+	"src":["vid1.mp4","vid2.mp4","vid3.mp4"]
+	}
+	]},
+	{"category_name":"Games",
+           "type":"grid",
+           "image":"./img/games.png", 
+          "contents":[]
+	}
+		
+]
+
+	
+}
+
+
+

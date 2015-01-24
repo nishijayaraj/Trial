@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet" href="css/app.css" />
+<link href="css/lightbox.css" rel="stylesheet" />
+<link href="css/video-js.css" rel="stylesheet">
+<script src="lib/video.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.js"></script>
+<script src="js/app.js"></script>
+
+<script src="js/controllers/mainCtrl.js"></script>
+<script src="js/services/services.js"></script>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+</head>
+
+<body ng-app="zacApp">
+
+	<!-- HEADER AND NAVBAR -->
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container"></div>
+		</nav>
+	</header>
+
+	<!-- MAIN CONTENT AND INJECTED VIEWS -->
+	
+	<div id="main">
+ 
+		<div class="container" ng-view>
+
+		</div>
+
+	</div>
+	<footer>
+		<div class="icons">
+  
+			<div class="list" ng-include="'partials/menu.html'">
+				
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+
